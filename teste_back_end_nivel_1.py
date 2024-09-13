@@ -71,15 +71,15 @@ response = [
 ]
 
 # Resposta:
-produtos_abaixo_30 = [
-    {
-        "nome": loja["nome"],
-        "endereço": loja["endereço"],
-        "produtos": [produto for produto in loja["produtos"] if produto["preço"] <= 30]
-    }
-    for loja in response
-]
-print(produtos_abaixo_30)
+# produtos_acima_30 = [
+#     {
+#         "nome": loja["nome"],
+#         "endereço": loja["endereço"],
+#         "produtos": [produto for produto in loja["produtos"] if produto["preço"] > 30]
+#     }
+#     for loja in response
+# ]
+# print(produtos_acima_30)
 
 #TODO- 2-Use o JSON abaixo para capturar o preço do produto B
 #explique detalhadamente por que escolheu essa solução e não outra
